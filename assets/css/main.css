@@ -247,10 +247,10 @@ hr {
         "Times New Roman", serif;
     font-size: 1.15rem;
     font-weight: 700;
-    color: var(--text);
+    color: var(--text-secondary);
     text-decoration: none;
     letter-spacing: -0.01em;
-    transition: color 0.3s ease;
+    transition: color 0.15s ease;
 }
 .site-title:hover {
     color: var(--text);
