@@ -1,6 +1,7 @@
 <header class="header" id="site-header">
   <div class="container">
-    <a href="{{ site.Home.RelPermalink }}" class="site-title"><i class="fa-regular fa-house"></i> {{ site.Title }}</a>
+    <a href="{{ site.Home.RelPermalink }}" class="site-title"><i class="fa-regular fa-house"></i></a>
+    <h2 class="actual-site-title">{{ site.Title }}</h2>
     <nav class="header-nav" aria-label="Main">
       {{- range site.Menus.main }}
       <a href="{{ .URL | relURL }}">{{ .Name }}</a>
